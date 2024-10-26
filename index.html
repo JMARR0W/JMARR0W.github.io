@@ -2,8 +2,86 @@
 <html>
     <head>
         <title>Eyetracker Project</title>
+        <!-- WebGazer.js library -->
+        <script src="webgazer.js" type="text/javascript"></script>
+        <script src="eyetracker.js" defer></script>
+
+        <style>
+            .kana-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            }
+            .kana-button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: gray;
+                height: 100px;
+                margin: 1px;
+                font-size: 70px;
+            }
+            .kana-button:hover {
+                background-color: rgb(179, 179, 179);
+            }
+        </style>
     </head>
     <body>
-       <p>Test</p>
+       <div class="kana-grid">
+            <div class="kana-button">わ</div>
+            <div class="kana-button">ら</div>
+            <div class="kana-button">や</div>
+            <div class="kana-button">ま</div>
+            <div class="kana-button">は</div>
+            <div class="kana-button">な</div>
+            <div class="kana-button">た</div>
+            <div class="kana-button">さ</div>
+            <div class="kana-button">か</div>
+            <div class="kana-button">あ</div>
+
+            <div class="kana-button"></div>
+            <div class="kana-button">り</div>
+            <div class="kana-button"></div>
+            <div class="kana-button">み</div>
+            <div class="kana-button">ひ</div>
+            <div class="kana-button">に</div>
+            <div class="kana-button">ち</div>
+            <div class="kana-button">し</div>
+            <div class="kana-button">き</div>
+            <div class="kana-button">い</div>
+
+            <div class="kana-button">を</div>
+            <div class="kana-button">る</div>
+            <div class="kana-button">ゆ</div>
+            <div class="kana-button">む</div>
+            <div class="kana-button">ふ</div>
+            <div class="kana-button">ぬ</div>
+            <div class="kana-button">つ</div>
+            <div class="kana-button">す</div>
+            <div class="kana-button">く</div>
+            <div class="kana-button">う</div>
+
+            <div class="kana-button"></div>
+            <div class="kana-button">れ</div>
+            <div class="kana-button"></div>
+            <div class="kana-button">め</div>
+            <div class="kana-button">へ</div>
+            <div class="kana-button">ね</div>
+            <div class="kana-button">て</div>
+            <div class="kana-button">せ</div>
+            <div class="kana-button">け</div>
+            <div class="kana-button">え</div>
+
+            <div class="kana-button">ん</div>
+            <div class="kana-button">ろ</div>
+            <div class="kana-button">よ</div>
+            <div class="kana-button">も</div>
+            <div class="kana-button">ほ</div>
+            <div class="kana-button">の</div>
+            <div class="kana-button">と</div>
+            <div class="kana-button">そ</div>
+            <div class="kana-button">こ</div>
+            <div class="kana-button">お</div>
+
+       </div>
     </body>
 </html>
